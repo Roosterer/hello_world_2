@@ -6,5 +6,6 @@ public class Main {
         System.out.println("wo shi ");
         System.out.println("test-three-conflict");
         System.out.println("final");
+        System.out.println("ok");
     }
 }
