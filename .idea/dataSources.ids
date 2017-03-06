@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - mytest@localhost" uuid="6e964898-64a2-4dca-a384-1899aced22a3">
+    <database-info product="MySQL" version="5.7.17-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.5">
+      <schema id="1" name="mytest"/>
+      <table id="2" parent="1" name="course"/>
+      <table id="3" parent="1" name="grade"/>
+      <table id="4" parent="1" name="score"/>
+      <table id="5" parent="1" name="student"/>
+      <table id="6" parent="1" name="teacher"/>
+      <column id="7" parent="2" name="CNO">
+        <mandatory>1</mandatory>
+        <data-type>varchar(5)</data-type>
+      </column>
+      <column id="8" parent="2" name="CNAME">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="9" parent="2" name="TNO">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="10" parent="3" name="low">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="11" parent="3" name="upp">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="12" parent="3" name="rank">
+        <data-type>char(1)</data-type>
+      </column>
+      <column id="13" parent="4" name="SNO">
+        <mandatory>1</mandatory>
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="14" parent="4" name="CNO">
+        <mandatory>1</mandatory>
+        <data-type>varchar(5)</data-type>
+      </column>
+      <column id="15" parent="4" name="DEGREE">
+        <mandatory>1</mandatory>
+        <data-type>decimal(10,1)</data-type>
+      </column>
+      <column id="16" parent="5" name="SNO">
+        <mandatory>1</mandatory>
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="17" parent="5" name="SNAME">
+        <mandatory>1</mandatory>
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="18" parent="5" name="SSEX">
+        <mandatory>1</mandatory>
+        <data-type>varchar(2)</data-type>
+      </column>
+      <column id="19" parent="5" name="SBIRTHDAY">
+        <data-type>datetime</data-type>
+      </column>
+      <column id="20" parent="5" name="CLASS">
+        <data-type>varchar(5)</data-type>
+      </column>
+      <column id="21" parent="6" name="TNO">
+        <mandatory>1</mandatory>
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="22" parent="6" name="TNAME">
+        <mandatory>1</mandatory>
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="23" parent="6" name="TSEX">
+        <mandatory>1</mandatory>
+        <data-type>varchar(2)</data-type>
+      </column>
+      <column id="24" parent="6" name="TBIRTHDAY">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <column id="25" parent="6" name="PROF">
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="26" parent="6" name="DEPART">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+    </database-model>
+  </data-source>
+</component>
