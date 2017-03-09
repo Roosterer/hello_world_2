@@ -2,3 +2,4 @@ hello
 world
 brach test
 hotfix test
+hotfix2 echo hello
